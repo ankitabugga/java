@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Homepage</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+      
+    }
+    
+    .color{
+       background-color:#f7f8fc ;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.09); 
+    }
+
+
+
+    .navbar .logo {
+      height: 50px;
+    }
+
+    .nav-options {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      margin: 0;
+    }
+
+    .nav-options li {
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .op-btns button {
+      margin-left: 10px;
+    }
+
+    .btn-filled {
+      background-color: #5863F8;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+
+    .btn-light {
+      background-color: white;
+      color: #5863F8;
+      border: 1px solid #5863F8;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .start-btn {
+      background-color: #4E148C;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 25px;
+      margin-top: 1rem;
+    }
+
+
+.card {
+      border: none;
+      border-radius: 15px;
+     /* border: 2px solid #007bff;  visible top border */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.09);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-img-top {
+      height: 180px;
+      object-fit: contain;
+      padding: 1rem;
+    }
+
+    .card h5 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      .card-img-top {
+        height: 120px;
+      }
+    }
+   
+
+
+   
+   h1{margin-left:156px;
+  }
+   
+  .desc-list > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+    margin-left:156px;
+  }
+
+  .desc-list img {
+    width: 30px;
+    height: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .desc-list {
+      justify-content: center;
+    }
+  }
+
+   
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #000; /* Black background */
+  color: white;           /* White text for contrast */
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.newsletter h1 {
+  margin: 0;
+  font-size: 24px;
+  color: white; /* White text */
+}
+
+.social-icons a img {
+  width: 30px;
+  margin: 0 10px;
+  filter: brightness(0) invert(1); /* Makes icons white if they’re black SVGs */
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.newsletter img {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Light blue for hover effect */
+}
+
+
+
+
+.left, .right {
+  flex: 1;
+  text-align: center;
+}
+
+.left img,
+.right img {
+  height: 150px;
+  width: 150px;
+}
+    
+    
+     li a {
+      color: black;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<div class="color">
+  <div class="navbar container">
+        <img class="logo" src="./assets/logo.svg" alt="Logo" />
+    <ul class="nav-options">
+      <li><a href="home7.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="quizzes.html">Quizzes</a></li>
+     <li><a href="help.html">Help</a></li>
+      
+    </ul>
+    <div class="op-btns">
+      <button class="btn-filled" onclick="window.location.href='Registerpage.jsp'">Register</button>
+      <button class="btn-light" onclick="window.location.href='Login.jsp'">Login</button>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <div class="hero">
+    <h1><span style="color: #5863F8;">Discover</span>, <span style="color: #4E148C;">Learn</span>, Triumph</h1>
+    <p>Dive into trivia adventures and uncover new knowledge with us!</p>
+   <a href="quiz.html">
+  <button class="start-btn">Start Quiz</button>
+</a>
+   
+  </div>
+ 
+
+ <div class="container">
+    <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 text-center">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/c++2.jpeg" class="card-img-top" alt="C++">
+          <h5>C++</h5>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/java3.jpeg" class="card-img-top" alt="Java">
+          <h5>Java</h5>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/js.png" class="card-img-top" alt="JavaScript">
+          <h5>JavaScript</h5>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/python.png" class="card-img-top" alt="Python">
+          <h5>Python</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+<div class="container my-5   ">
+  <div class="row align-items-center  mx-5"  >
+  
+    <!-- ✅ TEXT FIRST (on all screens) -->
+    <div class="col-md-6 order-1 order-md-1 text-center text-md-start  ">
+      <h1><span style="color: #5863F8;">Beyond</span> multiple</h1>
+      <h1>choice</h1>
+
+      <div class="desc-list mt-4">
+        <div class="d-flex align-items-center gap-3 mb-3   ml-3 justify-content-start">
+          <img src="./assets/questionmark.svg" alt="" width="30" height="30">
+          <span>Every Unique Question Type</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 mb-3 justify-content-start">
+          <img src="./assets/lightning.svg" alt="" width="30" height="30">
+          <span>Powerful Micro Motivators</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 justify-content-start">
+          <img src="./assets/reward.svg" alt="" width="30" height="30">
+          <span>Low Stake Competitions</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✅ IMAGE SECOND (on all screens) -->
+    <div class="col-md-6 order-2 order-md-2 d-flex justify-content-center">
+      <img src="./assets/boy.svg" alt="Boy Image" class="img-fluid" style="max-width: 300px;">
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+<div class="footer">
+  <div class="left">
+    <img src="./assets/mail.svg" alt="Left Icon" style="height: 150px; width: 150px;">
+  </div>
+
+  <div class="newsletter">
+    <img src="./assets/bluelogo.svg" alt="Logo">
+    <h1>scoli media</h1>
+    <div class="social-icons">
+  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+</div>
+    
+  </div>
+
+  <div class="right">
+    <img src="./assets/redmail.svg" alt="Right Icon" style="height: 150px; width: 150px;">
+  </div>
+</div>
+
+
+</body>
+</html>

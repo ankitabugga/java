@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Quiz App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons (optional) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css1//index.css">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+    }
+    .about-section {
+      padding: 60px 0;
+    }
+    .about-section h2 {
+      font-weight: 700;
+    }
+    .mission-section {
+      /*background-color: #f1f1f1;*/
+      background-color: #f9f9f9;
+      padding: 60px 0;
+    }
+    .card {
+      border: none;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .team-img {
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      object-fit: cover;
+    }
+
+
+
+  .about-text {
+    flex: 2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .about-text p.lead {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+
+  
+  </style>
+</head>
+<body>
+
+<!-- Navbar (optional) -->
+<div class="color">
+  <div class="navbar container">
+        <img class="logo" src="./assets/logo.svg" alt="Logo" />
+    <ul class="nav-options">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="quizzes.html">Quizzes</a></li>
+     <li><a href="Contact2.jsp">contact</a></li>
+      
+    </ul>
+    <div class="op-btns">
+      <button class="btn-filled" onclick="window.location.href='Registerpage.jsp'">Register</button>
+      <button class="btn-light" onclick="window.location.href='Login.jsp'">Login</button>
+    </div>
+  </div>
+  </div>
+<!-- About Section -->
+<section class="about-section">
+  <div class="container d-flex align-items-center justify-content-between flex-wrap">
+    <div class="about-img" style="flex: 1; min-width: 250px; text-align: center;">
+      <img src="./assets/boy.svg" alt="Illustration" class="img-fluid" style="max-height: 300px;">
+    </div>
+    <div class="about-text" style="flex: 2; padding: 20px;">
+      <h2 class="mb-4">About Quizzy</h2>
+      <p class="lead">Quizzy is a fun and interactive platform designed to test your knowledge across various domains including Java, Python, C++, and more. Whether you're preparing for exams, interviews, or just love challenges, Quizzy is your perfect companion!</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Mission Section -->
+<section class="mission-section text-center">
+  <div class="container">
+    <h2 class="mb-4">Our Mission</h2>
+    <p class="mb-5">To empower learners with engaging and accessible quizzes, helping them enhance their skills and knowledge in a fun and competitive way.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card p-4">
+          <i class="fas fa-graduation-cap fa-2x mb-3 text-primary"></i>
+          <h5>Learning First</h5>
+          <p>We prioritize quality content to help students grasp and test concepts efficiently.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <i class="fas fa-bolt fa-2x mb-3 text-success"></i>
+          <h5>Fast & Fun</h5>
+          <p>Quick quizzes make learning less stressful and more enjoyable.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <i class="fas fa-users fa-2x mb-3 text-warning"></i>
+          <h5>Community</h5>
+          <p>Join others in challenging yourself and growing through competition and collaboration.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="footer">
+  <div class="left">
+    <img src="./assets/mail.svg" alt="Left Icon" style="height: 150px; width: 150px;">
+  </div>
+
+  <div class="newsletter">
+    <img src="./assets/bluelogo.svg" alt="Logo">
+   <!--   <h1>scoli media</h1>-->
+      <div class="social-icons">
+  <a href="https://instagram.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    
+  </div>
+
+  <div class="right">
+    <img src="./assets/redmail.svg" alt="Right Icon" style="height: 150px; width: 150px;">
+  </div>
+</div>
+
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
